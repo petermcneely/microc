@@ -1,0 +1,4 @@
+(executable
+ (public_name microc)
+ (name microc)
+ (libraries microc))

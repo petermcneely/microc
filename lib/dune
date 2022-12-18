@@ -1,0 +1,8 @@
+(library
+ (name microc)
+ (libraries llvm)
+ (modules ast sast semant microcparse scanner irgen))
+
+(ocamllex scanner)
+
+(ocamlyacc microcparse)
